@@ -1,0 +1,65 @@
+
+
+body {
+	background-color: lightblue;
+}
+.key {
+    font-family: 'Arvo', serif;
+}
+.image {
+	background-image: url('images/keyboard-key.png');
+	background-size: cover;
+	background-position: center;
+	padding-top: 0.5em;
+	height: 50px;
+	width: 50px;
+	font-weight: 600;
+
+}
+.imag {
+	background-image: url('images/keyboard-key.png');
+	background-size: cover;
+	background-position: center;
+	padding-top: 1em;
+	width: 100px;
+	font-weight: 600;
+}
+.container {
+	 display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1em;
+}
+.cards {
+	max-width: 50%;
+	width: 600px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 1em;
+}
+
+.card {
+	max-width: 50%;
+}
+.main {
+	display: inline-flex;
+    flex-wrap: wrap;
+}
+.some {
+	display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#for {
+	width: 100%;
+}
+.fas {
+	padding-top: 0.5em;
+}
